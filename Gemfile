@@ -28,6 +28,7 @@ gem 'jquery-rails'
 gem 'spree', '1.1.3'
 gem 'spree_usa_epay'
 gem 'spree_skrill'
+gem 'spree_gateway', :git => 'git://github.com/spree/spree_gateway.git', :branch => "1-1-stable" # make sure to include after spree
 
 group :production do
   gem 'unicorn'
